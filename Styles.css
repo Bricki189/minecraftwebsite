@@ -159,6 +159,8 @@ nav ul li a:hover:before{
 
 footer{
     background-color: #403f4c;
+    padding-bottom: 25px;
+    padding-top: 25px;
 }
 
 .flex-container {
@@ -172,6 +174,100 @@ footer{
     height: 99%;
     width: 32.2%;
     border-style: none;
+}
+
+#BekannteModsTitle{
+    font-size: 40px;
+    width: 60%;
+    margin: 0% auto 0% auto;
+}
+
+.ListModImages{
+    list-style: none;
+}
+
+.ListModImages li{
+    margin-bottom: 80px;
+}
+
+.ImageMod{
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 2px;
+    background: #1b2432;
+    padding: 5px;
+}
+
+
+#SkyfactoryMod{
+    transition: width ease-in-out 0.25s;
+}
+#CreateMod{
+    transition: width ease-in-out 0.25s;
+}
+#DragonsMod{
+    transition: width ease-in-out 0.25s;
+}
+
+#SkyfactoryMod:hover{
+    width: 70%;
+}
+#CreateMod:hover{
+    width: 70%;
+}
+#DragonsMod:hover{
+    width: 70%;
+}
+
+main #IntroductionMods{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#WhatAreModsTitle{
+    font-size: 40px;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#forgelogo{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    transition: width ease-in-out 0.25s;
+}
+
+#forgelogo:hover{
+    width: 350px;
+}
+
+#IntroductionMods{
+    margin-bottom: 200px;
+}
+
+#WhatDoModsDo{
+    font-size: 40px;
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main div #Intrestet{
+    font-size: 40px;
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.endIMG{
+    width: 100%;
 }
 
 @media only screen and (min-width: 1010px) {
