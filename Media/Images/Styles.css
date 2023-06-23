@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+body{
+    background-color: black;
+    margin: 0 0 0 0;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    width: 100%;
+    background-color: #1b2432;
+    margin: 0 0 20px 0;
+    padding: 0 0 0 0;
+}
+
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.logo{
+    width: 300px;
+    height: auto;
+    float: left;
+    margin-left: 30px;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.center{
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+}
+
+.MainAspectsListContainer{
+    text-align: center;
+    padding: 0;
+}
+
+.WhatIsItAbout{
+    margin-top: 200px;
+    font-size: 20px;
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.WhatIsItAbout div{
+    margin-bottom: 300px;
+}
+
+.WhatIsItAbout #Kreativ {
+    font-size: 40px;
+    width:80%;
+    margin-left: 0;
+}
+
+.WhatIsItAbout #Überleben {
+    font-size: 40px;
+    width:60%;
+}
+
+.WhatIsItAbout #ErschafeWasImmer {
+    font-size: 40px;
+    width:60%;
+}
+
+.WhatIsItAbout article {
+    padding-top: 20px;
+    text-align: justify;
+}
+
+.WhatIsItAbout .Überleben{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.WhatIsItAbout .Kreativ{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.WhatIsItAbout .ErschaffeWasImmer{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body .MainAspectsListContainer ul li{
+    margin-top: 120PX;
+    list-style: none;
+    font-size: 60px;
+}
+
+nav{
+    float: left;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    float: left;
+    margin: 0 30px;
+    padding-top: 32px;
+    position: relative
+}
+
+nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+
+    cursor: pointer;
+
+    transition: font-size ease-in-out .25s;
+
+    transform: translateZ(0);
+    will-change: transform;
+
+}
+
+nav ul li a:hover{
+    color: #ACD1AF;
+    font-size: 18px;
+}
+
+nav ul li a::before{
+    content: '';
+    display: block;
+    height: 4px;
+    width: 0;
+    background-color: #ACD1AF;
+
+    position: absolute;
+    top: 0;
+
+    transition: all ease-in-out 250ms;
+}
+
+nav ul li a:hover:before{
+    width: 100%;
+}
+
+footer{
+    background-color: #403f4c;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+
+.flex-container {
+    display: flex;
+    height: 100px;
+    align-content: space-around;
+    justify-content: space-evenly;
+}
+
+.flex-item {
+    height: 99%;
+    width: 32.2%;
+    border-style: none;
+}
+
+#BekannteModsTitle{
+    font-size: 40px;
+    width: 60%;
+    margin: 0 auto 0 auto;
+}
+
+.ListModImages{
+    list-style: none;
+}
+
+.ListModImages li{
+    margin-bottom: 80px;
+}
+
+.ImageMod{
+    width: 60%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 2px;
+    background: #1b2432;
+    padding: 5px;
+}
+
+
+#SkyfactoryMod{
+    transition: width ease-in-out 0.25s;
+}
+#CreateMod{
+    transition: width ease-in-out 0.25s;
+}
+#DragonsMod{
+    transition: width ease-in-out 0.25s;
+}
+
+#SkyfactoryMod:hover{
+    width: 70%;
+}
+#CreateMod:hover{
+    width: 70%;
+}
+#DragonsMod:hover{
+    width: 70%;
+}
+
+main #IntroductionMods{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#WhatAreModsTitle{
+    font-size: 40px;
+    width:100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#forgelogo{
+    width: 300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    transition: width ease-in-out 0.25s;
+}
+
+#forgelogo:hover{
+    width: 350px;
+}
+
+#IntroductionMods{
+    margin-bottom: 200px;
+}
+
+#WhatDoModsDo{
+    font-size: 40px;
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main div #Intrestet{
+    font-size: 40px;
+    width:60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.endIMG{
+    width: 100%;
+}
+
+.creator{
+    width: 60%;
+    margin: 0 auto 200px auto;
+    text-align: center;
+}
+
+.creator h2{
+    font-size: 40px;
+}
+
+.creator img{
+    border-radius: 50%;
+}
+.creator article{
+    margin-bottom: 80px;
+}
+
+#BastiGHG{
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    transition: width ease-in-out 0.25s;
+}
+
+#GLP{
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    transition: width ease-in-out 0.25s;
+}
+
+#Technoblade{
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    transition: width ease-in-out 0.25s;
+}
+
+#Paluten{
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 100px;
+    transition: width ease-in-out 0.25s;
+}
+
+#BastiGHG:hover{
+    width: 50%;
+}
+
+#GLP:hover{
+    width: 50%;
+}
+
+#Technoblade:hover{
+    width: 50%;
+}
+
+#Paluten:hover{
+    width: 50%;
+}
+
+@media only screen and (min-width: 1010px) {
+    .WhatIsItAbout .Überleben{
+        float: right;
+        width: 300px;
+        margin-left: 20px;
+        padding-bottom: 130px;
+        padding-top: 50px;
+    }
+
+    .WhatIsItAbout .Kreativ{
+        float: Left;
+        width: 300px;
+        padding-bottom: 150px;
+        padding-top: 30px;
+    }
+
+    .WhatIsItAbout .ErschaffeWasImmer{
+        float: right;
+        width: 300px;
+        margin-left: 20px;
+        padding-bottom: 200px;
+    }
+
+    nav{
+        float: right;
+    }
+
+    nav li{
+        float: left;
+        margin: 0 65px;
+        padding-top: 32px;
+        position: relative
+    }
+
+    .WhatIsItAbout #Kreativ {
+        font-size: 40px;
+        width:80%;
+        margin-left: 300px;
+    }
+}
+
+
+
