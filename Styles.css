@@ -339,6 +339,29 @@ main div #Intrestet{
     width: 50%;
 }
 
+#DevStudioStart{
+    width: 100%;
+    margin-bottom: 200px;
+}
+
+.DevStudiTitle{
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#DevStudiInfo{
+    width: 60%;
+    margin: 0 auto 0 auto;
+}
+
+.DevStudiDivs{
+    width: 60%;
+    margin: 0 auto 200px auto;
+    text-align: center;
+}
+
+
 @media only screen and (min-width: 1010px) {
     .WhatIsItAbout .Überleben{
         float: right;
@@ -368,7 +391,7 @@ main div #Intrestet{
 
     nav li{
         float: left;
-        margin: 0 65px;
+        margin: 0 35px;
         padding-top: 32px;
         position: relative
     }
